@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: didot;
+    src: url(../fonts/"didot.ttc");
+}
+
+body {
+	margin: 0;
+}
+
+.wrapper {
+	width: 100%;
+/*	height: 800px;*/
+	background:white;
+}
+
+.navbar {
+	width: 100%;
+	height: 100px;
+	background:white;
+	position: fixed;
+}
+
+.title {
+	font-size: 60px;
+	color: black;
+	font-family: didot;
+	padding-top: 24px;
+	padding-left: 45%;
+	text-decoration: none;
+}
+
+/*.back {
+	width: 10%;
+	height:100px;
+	background-image: url(../img/arrow.png);
+	background-size: 80px;
+	background-position: center; 
+	position: fixed;
+	z-index: 10;
+}*/
+
+.about {
+	width: 80%;
+	height: 650px;
+	background:transparent;
+	margin: 0 auto;
+	padding-top: 65px;
+}
+
+.left {
+	width: 509px;
+	height: 650px;
+	background: transparent;
+}
+
+.right {
+	width: 509px;
+	height: 650px;
+	background: transparent;
+	margin-top: -650px;
+	margin-left: 50%;
+}
+
+.hello {
+	font-family: didot;
+	font-size:100px;
+	padding-top: 100px;
+}
+.there {
+	font-family: didot;
+	font-size:80px;
+	padding-left: 210px;
+}
+
+.text {
+	font-family: didot;
+	font-size:13pt;
+	color: black;
+	padding-top: 280px;
+    text-align: justify;
+    line-height: 120%;
+}
+
+.text p {
+	font-family: didot;
+	font-size:13pt;
+	color: black;
+	display: inline;
+	background:black;
+}
+
+.text p:hover {
+	background:white;
+}
+
+
+
+
+
