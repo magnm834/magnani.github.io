@@ -65,17 +65,17 @@ body {
 	font-size: 13.5px;
 }
 
-<<<<<<< HEAD
 .left a {
 	text-decoration: underline;
 }
 
 .left a:hover {
 	text-decoration: none;
-=======
+}
+
 .left a:hover {
 	text-decoration: underline;
->>>>>>> 9a9957f9773e94ba19aba7507c1019ea3e4928a3
+
 }
 
 .right {
