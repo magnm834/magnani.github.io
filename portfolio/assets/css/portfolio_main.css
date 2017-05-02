@@ -86,7 +86,7 @@ body {
 .project {
 	width: 329.5px;
 	height: 329.5px;
-	background-color: black;
+	background-color: transparent;
 	display: inline-block;
 	margin: 0 auto;
 }
@@ -127,6 +127,18 @@ body {
 
 .cathedral {
 	background-image: url(../img/cathedral.png);
+	background-size: cover;
+	background-position: 0% 50%;; 
+}
+
+.qb {
+	background-image: url(../img/qb.png);
+	background-size: cover;
+	background-position: 0% 50%;; 
+}
+
+.hands {
+	background-image: url(../img/hands.png);
 	background-size: cover;
 	background-position: 0% 50%;; 
 }
