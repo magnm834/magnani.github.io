@@ -143,6 +143,12 @@ body {
 	background-position: 0% 50%;; 
 }
 
+.visual_poetry {
+	background-image: url(../img/visual_poetry.png);
+	background-size: cover;
+	background-position: 0% 50%;; 
+}
+
 
 
 
