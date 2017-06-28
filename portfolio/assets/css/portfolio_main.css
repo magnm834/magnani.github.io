@@ -33,6 +33,11 @@ body {
 	text-decoration: none;
 }
 
+.title:hover {
+	text-decoration: underline;
+	color: black;
+}
+
 .about {
 	width: 120px;
 	height: 645px;
